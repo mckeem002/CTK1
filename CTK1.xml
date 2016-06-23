@@ -1,6 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="459" inline="false" x="-91" y="30">
-    <field name="MODE">UNTIL</field>
+  <block type="controls_repeat" id="467" inline="true" x="122" y="30">
+    <value name="TIMES">
+      <block type="math_number" id="487">
+        <field name="NUM">5</field>
+      </block>
+    </value>
     <statement name="DO">
       <block type="movement_forward" id="424">
         <next>
