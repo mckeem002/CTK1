@@ -1,16 +1,15 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="166" x="114" y="70">
-    <next>
-      <block type="robot_delay" id="168" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="175">
-            <field name="NUM">1000</field>
-          </block>
-        </value>
-        <next>
-          <block type="movement_stop" id="204"></block>
-        </next>
+  <block type="math_arithmetic" id="211" inline="true" x="48" y="97">
+    <field name="OP">MULTIPLY</field>
+    <value name="A">
+      <block type="math_number" id="218">
+        <field name="NUM">1739</field>
       </block>
-    </next>
+    </value>
+    <value name="B">
+      <block type="math_number" id="225">
+        <field name="NUM">4639</field>
+      </block>
+    </value>
   </block>
 </xml>
